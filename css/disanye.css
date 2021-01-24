@@ -1,0 +1,238 @@
+body{background: linear-gradient(to top, #f1f3f8 0%, #f1f3f8 50%,  #d6e0f0 100%);overflow-x: hidden;width: 1920px;height: 100%;scroll-behavior: smooth;}
+.header{height: 180px;width: 100%;}
+html{scroll-behavior: smooth}
+.h1{font-size: 175px;text-align: right;line-height: 210px;font-family:biaoti1;text-shadow: 0 0 20px #393b44;color:white;width: 1400px;letter-spacing: 10px;animation:diyih 4s ease both ;position: absolute;right: 100px;margin-top: 300px;color:#f1f3f8 ;}
+.h2{font-size: 175px;text-align: right;line-height: 210px;font-family:biaoti1;text-shadow: 0 0 30px #e2bd00;color:white;width: 1400px;letter-spacing: -5px;position: absolute;right: 115px;margin-top: 300px;animation:diyih 4s ease both ;}
+
+#btn3{outline:none;cursor:pointer;}
+#btn2{cursor:pointer;font-size: 18px;outline:none;}
+#btn{cursor:pointer;outline:none;z-index: 3;}
+#btnfan{cursor:pointer;outline:none;z-index: 3;}
+
+#h1-div1{width: 1920px;height: 210px;overflow: hidden;position: absolute;top: 200px;right: 100px;z-index: 4;}
+#h1-div2{width: 1920px;height: 210px;overflow: hidden;position: absolute;top: 400px;right: 100px;z-index: 4;}
+#h1-div3{width: 1920px;height: 210px;overflow: hidden;position: absolute;top: 200px;right: 100px;display: none;z-index: 4;}
+#h1-div4{width: 1920px;height: 210px;overflow: hidden;position: absolute;top: 400px;right: 100px;display: none;z-index: 4;}
+#zimu10{margin-right: -15px;}
+#zimu11{margin-right: 5px;}
+.zimu{animation:xianshi 0.1s ease both;margin-left: -35px;}
+#diyi{margin-top: 0px;margin-left: 0px;width: 100%;background:none}
+#center{margin-left: 940px;padding-top: 40px;}
+#logo{position: fixed;left: 40px;top: 40px;z-index: 1;height: 174px;width: 50px;overflow: hidden;}
+#box2 img{width: 600px;}
+#box1 img{width: 600px;}
+
+#ul:hover img{transform: translateX(-620px)}
+#ul img{transition: all 0.4s ease 1s;}
+#ul{height:630px;width: 600px;}
+#box1-1{width: 1200px;}
+#box1{width: 600px;overflow: hidden;position: absolute;}
+#box2{width: 600px;overflow: hidden;position: absolute;}
+#diyi ul li{list-style: none;box-shadow: 0 0  40px 5px #393b44;float: left;margin-left: 54px;width:610px;height: 850px;background: #393b44 ;margin-top: 400px;animation:diyih2 3.5s ease both ;}
+#diyi ul li:first-child{animation:diyih2 3.2s ease both}
+#diyi ul{width:1350px;margin-left: 400px;height: 850px;margin-top:480px ;}
+#diyi p{margin-left: 400px;margin-top:-0px;}
+#diyi h2{margin-left:1481px ;width: 249px;height: 50px;}
+
+#logo img{margin-left:75px;animation:diyih3 4s ease both ;cursor:pointer}
+#logo2{transition:all 0.3s ease-in 0s;width: 95px;height: 174px;}
+#logo2:hover{transform: translateX(-50px) }
+
+#center button{background: none;border: none;position: fixed;}
+
+#guochangdonghua{width:1920px;height: 940px;position:fixed;top: -940px;left: 0px;background-color: #000000;z-index: 5;display: none;animation:guochangdonghua 2s ease both ;}
+#guochangdonghua2{width:1920px;height: 940px;position:fixed;top: -940px;left: 0px;background-color:#e0e8eb;z-index: 5;animation:guochangdonghua2 2s ease both ;}
+#gouwuche-btn{width: 80px;height: 24px;overflow: hidden;color:#393b44 ;font-weight: bolder;}
+#gouwuche-btn:hover p{transform: translateY(-24px);}
+#gouwuche-btn p{transition:all 0.3s ease-in 0s;}
+#gouwuche button{position: fixed;right: 64px;top: 40px;font-size: 35;color: white;background: none;border: none;}
+#gouwuche3{width: 480px;height: 940px;position: fixed;right: -500px;top: 0px;background-color: #8d93ab ;z-index:5;}
+#gouwuche3 h1{padding:60px 230px 60px 70px;font-size: 50px;color: white;}
+#gouwuche3 p{margin-top: 100px;margin-left: 40px;font-size: 30px;color: white;}
+#gouwuche3 #btn3{position: absolute;top: 20px;right: 50px;font-size: 50px;color: #FFFFFF;background:none;border: none;}
+
+#guntiao{width: 100%;height: 88px;margin-top:400px;margin-bottom: 117px;letter-spacing: 10px;background: #8d93ab;border:#393b44 2px solid;}
+#guntiao p{animation: guntiao 2.2s linear infinite;margin-top: 0px;}
+#guntiao  p{font-size: 40px;line-height: 88px;overflow: hidden;width: 2700px;}
+
+
+#dier{width: 100%;height: 645px;border: #821134 1px solid;background:url(../img/79878615.jpg);background-repeat:no-repeat;background-size: 100%;background-attachment: fixed;}
+#dier p{margin-left:1400px;margin-top: 100px;width: 400px;color: white;text-shadow: 0 0 5px  #d6e0f0;background-color: rgba(0,0,0,0.5);padding: 5px 5px 5px 5px; 5px solid;text-indent: 8em;}
+#disan{height:940;width: 8000px;background-color: #f1ff4e;}
+#disan ul{width: 6000px;height: 786px;margin-left: 1920px;margin-top:100px;overflow: auto;position: absolute;z-index: 1000px;transform: all  ease-in 1s 0.5s;cursor: move;}
+#zuoxia{position: fixed;left: 40px;bottom: 40px;color: #FFFFFF;cursor:pointer;color: #393b44;font-weight: bolder;}
+#zuoxia1{width: 17px;overflow: hidden;position: absolute;top: -80px;;}
+#zuoxia2{width: 34px;overflow: hidden;position: absolute;top: -50px;}
+#zuoxia3{width: 68px;overflow: hidden;position: absolute;top: -20px;}
+#zuoxia1:hover p{transform: translateX(-20px)}
+#zuoxia1 p{transition:all 0.3s ease-in 0s;}
+#zuoxia2:hover p{transform: translateX(-34px)}
+#zuoxia2 p{transition:all 0.3s ease-in 0s;}
+#zuoxia3:hover p{transform: translateX(-68px)}
+#zuoxia3 p{transition:all 0.3s ease-in 0s;}
+
+
+#disan ul li{margin-left:30px;height: 650px;width: 520px;list-style: none;float: left;box-shadow:0 0 15px #393b44;border: 10px solid #393b44;margin-top: 50px;transition: all 0.5s ease;}
+#div p{background-color: rgba(255,255,255,0.2);display: none;height: 650px;width: 520px;}
+#div li:hover p{display: block;}
+#div li:hover{transform: scale(1.1);}
+	
+
+#disi{width: 100%;height: 148px;margin-left: ;margin-top: 80px;overflow: hidden;margin-bottom: 200px;}
+#disi div{width: 100%;margin-left: 900px;height: 200px;animation: disi 5s linear infinite }
+#disi-1{height: 100px;margin-bottom: 0px;}
+#disi-1 p{font-size: 15px;width: 450px;margin-left: 350px;margin-top: -80px;}
+#disi-2 p{font-size: 15px;width: 450px;margin-left: 350px;margin-top: -100px;}
+#disi-2{margin-top: 0px;}
+.box{}
+
+#genduo1{width: 100%;height: 200px;}
+#genduo1 p{margin-left: 1440px;font-size: 40px;margin-top:900px;color: #393b44;width: 200px;font-size: 35px}
+
+#span2{width: 100px ;height: 100px;margin-left: 180px;}
+#svg1{margin-left: 0px;transition: all 0.5s ease }
+#svg2{position: absolute;top: 15px;right: -8px;transition: all 0.5s ease}
+#span2:hover #svg1{ -webkit-transform:rotate(-255deg);}
+#span2:hover #svg2{ -webkit-transform:rotate(360deg);}
+
+#span22{width: 100px ;height: 100px;margin-left: 180px;}
+#svg22{margin-left: 0px;transition: all 0.5s ease }
+#span22{width: 100px ;height: 100px;margin-left: -150px;}
+#svg11{width: 90px;position: absolute;right: 180px;top: 3650px;}
+#svg22{height: 40px;position: absolute;right:185px;top: 3680px;}
+#span22:hover #svg11{ -webkit-transform:rotate(-255deg);}
+#span22:hover #svg22{ -webkit-transform:rotate(360deg);}
+#xuanzhuang2{display: none;z-index: 3;}
+#xuanzhuang4{display: none;}
+
+
+
+#span222{width: 100px ;height: 100px;margin-left: 180px;}
+#svg222{margin-left: 0px;transition: all 0.5s ease }
+#span222{width: 100px ;height: 100px;margin-left: -150px;}
+#svg111{width: 90px;position: absolute;right:160px;top: 4550px;z-index: 3;}
+#svg222{height: 40px;position: absolute;right:185px;top: 4580px;z-index: 3;}
+#span222:hover #svg111{ -webkit-transform:rotate(-255deg);}
+#span222:hover #svg222{ -webkit-transform:rotate(360deg);}
+#xuanzhuang44{display: none;}
+
+#last{height: 390px;width: 1920px;background-color: #f1f3f8;font-size: 25px;position: absolute;z-index: 2;}
+#last ul li{list-style: none;width: 206px;height: 40px;transition: all 0.5s ease;}
+#last ul{margin-left:350px;margin-top: 180px;float: left;width:200px;}
+#last ul li:hover{transform: scale(1.1);text-shadow: 1 1  5px #000000;cursor: pointer;}
+			
+			
+			@keyframes ul{
+				from{transform: translateX(0);}
+				to{transform: translateX(-3035px);}
+			}
+			@keyframes zuiyou {
+				from{transform:translateY(0px)}
+				to{transform:translateY(-100px)}
+			}
+			@keyframes zuiyou2 {
+				from{transform:translateY(-100px)}
+				to{transform:translateY(0px)}
+			}
+			@keyframes gouwuche{
+				from{transform: translateX(0px);}
+				to{transform: translateX(-500px);}
+			}
+			@keyframes gouwuche2{
+				from{transform: translateX(-500px);}
+				to{transform: translateX(0px);}
+			}
+			@keyframes div1{
+				from{transform: translateX(0px);}
+				80%{transform: translateX(-1520px);}
+				100%{transform: translateX(-1420px);}
+			}
+			@keyframes diyih{
+				0%{transform:translateY(0px)}
+				30%{transform:translateY(0px)}
+				100%{transform:translateY(-300px)}
+			}
+			@keyframes diyih2{
+				0%{transform:translateY(0px)}
+				30%{transform:translateY(0px)}
+				100%{transform:translateY(-400px)}
+			}
+			@keyframes diyih3{
+				0%{transform:translateX(0px)}
+				30%{transform:translateX(0px)}
+				100%{transform:translateX(-100px)}
+			}
+			@keyframes guochangdonghua{
+				0%{transform: translateY(0px);}
+				0.1%{transform: translateY(940px);}
+				66%{transform: translateY(940px);}
+				100%{transform: translateY(0px);}
+			}
+			@keyframes guochangdonghua2{
+				0%{transform: translateY(0px);}
+				0.1%{transform: translateY(940px);}
+				66%{transform: translateY(940px);}
+				100%{transform: translateY(0px);}
+			}
+			@keyframes diyi{
+				0%{}
+				63%{}
+				64%{background: #000000;}
+				100%{background: #000000;}
+			}
+			@keyframes diyi1{
+				0%{background-color: #000000;}
+				63%{background-color: #000000;}
+				64%{background: linear-gradient(to top, #041066 0%,  #041066 60%,  #ce04b7 100%)}
+				100%{background: linear-gradient(to top, #041066 0%,  #041066 60%,  #ce04b7 100%)}
+			}
+			
+			@keyframes diyi2{
+				0%{}
+				63%{}
+				64%{background:#b705ae}
+				100%{background:#b705ae}
+			}
+			@keyframes diyi3{
+				0%{}
+				63%{}
+				64%{background:#820273}
+				100%{background:#820273}
+			}
+			@keyframes diyi4{
+				0%{}
+				63%{}
+				64%{background:#676767}
+				100%{background:#676767}
+			}
+			@keyframes xianshi {
+				from{opacity: 1;}
+				to{opacity: 0;}
+			}
+			@keyframes xianshi1 {
+				from{opacity: 0;}
+				to{opacity: 1;}
+			}
+			@keyframes disi {
+				0%{transform: translateY(0px);opacity: 1;}
+				5%{transform: translateY(-100px);opacity: 0.2;}
+				10%{transform: translateY(-200px);opacity: 1;}
+				50%{transform: translateY(-200px);opacity: 1;}
+				55%{transform: translateY(-100px);opacity: 0.2;}
+				60%{transform: translateY(0px);opacity: 1;}
+				100%{transform: translateY(0px);}
+			}
+			@keyframes a2020-1{
+				from{transform: translateX(0px);}
+				to{transform: translateX(235px);}
+			}
+			@keyframes a2020-2{
+				from{transform: translateX(0px);}
+				to{transform: translateX(750px);}
+			}
+			@keyframes guntiao{
+				from{transform: translateX(0);}
+				to{transform: translateX(-435px);}
+			}
+
+

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Harsh and Cruel-高端街头服饰
+		</title>
+		<link rel="icon" href="img/logo1.png" type="image/png" sizes="16x16" />
+	</head>
+	<style type="text/css">
+		#logo {
+			position: fixed;
+			left: 40px;
+			top: 40px;
+			z-index: 1;
+			height: 174px;
+			width: 50px;
+			overflow: hidden;
+		}
+
+		#logo img {
+			margin-left: 75px;
+			animation: diyih3 4s ease both;
+			cursor: pointer
+		}
+
+		#logo2 {
+			transition: all 0.3s ease-in 0s;
+			width: 95px;
+			height: 174px;
+			border: #000000 1px solid;
+			margin-left: -100px;
+		}
+
+		#logo2:hover {
+			transform: translateX(-50px)
+		}
+
+		#zuoxia {
+			position: fixed;
+			left: 40px;
+			bottom: 40px;
+			color: #FFFFFF;
+			cursor: pointer;
+			color: #393b44;
+			font-weight: bolder;
+		}
+
+		#zuoxia1 {
+			width: 17px;
+			overflow: hidden;
+			position: absolute;
+			top: -80px;
+			;
+		}
+
+		#zuoxia2 {
+			width: 34px;
+			overflow: hidden;
+			position: absolute;
+			top: -50px;
+		}
+
+		#zuoxia3 {
+			width: 68px;
+			overflow: hidden;
+			position: absolute;
+			top: -20px;
+		}
+
+		#zuoxia1:hover p {
+			transform: translateX(-20px)
+		}
+
+		#zuoxia1 p {
+			transition: all 0.3s ease-in 0s;
+		}
+
+		#zuoxia2:hover p {
+			transform: translateX(-34px)
+		}
+
+		#zuoxia2 p {
+			transition: all 0.3s ease-in 0s;
+		}
+
+		#zuoxia3:hover p {
+			transform: translateX(-68px)
+		}
+
+		#zuoxia3 p {
+			transition: all 0.3s ease-in 0s;
+		}
+
+		#gouwuche-btn {
+			width: 80px;
+			height: 24px;
+			overflow: hidden;
+			color: #393b44;
+			font-weight: bolder;
+		}
+
+		#gouwuche-btn:hover p {
+			transform: translateY(-44px);
+		}
+
+		#gouwuche-btn p {
+			transition: all 0.3s ease-in 0s;
+			margin-top: 0px;
+		}
+
+		#gouwuche button {
+			position: fixed;
+			right: 64px;
+			top: 50px;
+			font-size: 35;
+			color: white;
+			background: none;
+			border: none;
+		}
+
+		#gouwuche3 {
+			width: 480px;
+			height: 940px;
+			position: fixed;
+			right: -500px;
+			top: 0px;
+			background-color: #8d93ab;
+			z-index: 3;
+		}
+
+		#gouwuche3 h1 {
+			padding: 60px 230px 60px 70px;
+			font-size: 50px;
+			color: white;
+		}
+
+		#gouwuche3 p {
+			margin-top: 100px;
+			margin-left: 40px;
+			font-size: 30px;
+			color: white;
+		}
+
+		#gouwuche3 #btn3 {
+			position: absolute;
+			top: 20px;
+			right: 50px;
+			font-size: 50px;
+			color: #FFFFFF;
+			background: none;
+			border: none;
+		}
+
+		#btn3 {
+			outline: none;
+			cursor: pointer;
+		}
+
+		#btn2 {
+			cursor: pointer;
+			font-size: 18px;
+			outline: none;
+		}
+
+		#div li:hover div {
+			transform: translateY(900px);
+		}
+
+		#div1 li:hover div {
+			transform: translateY(900px);
+		}
+
+		body {
+			background: #f1f3f8;
+			position: relative;
+			width: 1920px;
+		}
+
+		#div li div {
+			width: 740px;
+			height: 900px;
+			background-color: rgba(0, 0, 0, 0.5);
+			position: relative;
+			margin-top: -900px;
+			transition: all 0.5s ease-in 0s;
+		}
+
+		#div li div p {
+			color: #FFFFFF;
+			font-size: 50px;
+			position: absolute;
+			top: 400px;
+			left: 200px;
+			width: 600px;
+		}
+
+		#div1 li div {
+			width: 740px;
+			height: 900px;
+			background-color: rgba(0, 0, 0, 0.5);
+			position: relative;
+			margin-top: -900px;
+			transition: all 0.5s ease-in 0s;
+		}
+
+		#div1 li div p {
+			color: #FFFFFF;
+			font-size: 50px;
+			position: absolute;
+			top: 400px;
+			left: 200px;
+			width: 600px;
+		}
+
+
+		#beijing {
+			width: 1920px;
+			height: 3000%px;
+		}
+
+		#div {
+			background: #f1f3f8;
+			width: 740px;
+			height: 7440px;
+			position: absolute;
+			cursor: move;
+			left: 207px;
+			padding: 0px;
+			animation: div 25s linear infinite;
+		}
+
+		#div li {
+			height: 900px;
+			width: 740px;
+			background: white;
+			list-style: none;
+			margin-top: 20px;
+			border: #8d93ab 5px solid;
+			box-shadow: 0 0 10px #8d93ab;
+			overflow: hidden;
+		}
+
+		#div1 {
+			background: #f1f3f8;
+			width: 740px;
+			height: 7440px;
+			position: absolute;
+			cursor: move;
+			top: 0px;
+			right: 209px;
+			padding: 0px;
+			animation: div1 25s linear infinite;
+			top: -5000px;
+		}
+
+		#div1 li {
+			height: 900px;
+			width: 740px;
+			background: white;
+			list-style: none;
+			margin-top: 20px;
+			border: #8d93ab 5px solid;
+			box-shadow: 0 0 10px #8d93ab;
+			overflow: hidden;
+		}
+
+		#guochangdonghua2 {
+			width: 1920px;
+			height: 940px;
+			position: fixed;
+			top: -940px;
+			left: 0px;
+			background-color: #e0e8eb;
+			z-index: 999;
+			animation: guochangdonghua2 1s ease both;
+		}
+
+		@keyframes guochangdonghua2 {
+			0% {
+				transform: translateY(0px);
+			}
+
+			0.1% {
+				transform: translateY(940px);
+			}
+
+			66% {
+				transform: translateY(940px);
+			}
+
+			100% {
+				transform: translateY(0px);
+			}
+		}
+
+		@keyframes diyih3 {
+			0% {
+				transform: translateX(100px)
+			}
+
+			100% {
+				transform: translateX(0px)
+			}
+		}
+
+		@keyframes gouwuche2 {
+			from {
+				transform: translateX(-500px);
+			}
+
+			to {
+				transform: translateX(0px);
+			}
+		}
+
+		@keyframes gouwuche {
+			from {
+				transform: translateX(0px);
+			}
+
+			to {
+				transform: translateX(-500px);
+			}
+		}
+
+		@keyframes div {
+			0% {
+				transform: translateY(-5000px);
+			}
+
+			100% {
+				Y transform: translateY(0px);
+			}
+	</style>
+	<style>
+		@keyframes div1{
+			  0% {
+			   transform: translateY(5000px); 
+			   }
+			  100% {Y
+			  	    transform: translateY(0px); 
+			  	  }
+
+			
+		</style>
+
+
+	</style>
+
+	<body>
+		<body>
+			<div id="guochangdonghua2">
+				<img src="img/IMG_1086.GIF" style="margin-left: 650px;margin-top: 220px;width: 680px;">
+			</div>
+			<div id="logo">
+				<div id="logo2">
+					<a href="shop.html"><img src="img/wenzilogo.png" width="95px" height="174px"><img src="img/wenzilogo.png" width="95px"
+						 height="174px" style="margin-left: 120px;position: absolute;top: 00px; "></a>
+				</div>
+			</div>
+			<div id="left"></div>
+			<div id="gouwuche">
+				<button id="btn2" onclick="gouwuche()">
+					<div id="gouwuche-btn">
+						<p>购物车&nbsp;&nbsp;&nbsp;0</p>
+						<p>购物车&nbsp;&nbsp;&nbsp;0</p>
+					</div>
+				</button>
+				<div id="gouwuche3">
+					<h1>您的<br><span style="margin-left: 30px;">购物车</span></h1>
+					<hr>
+					<p>你还未添加商品，快去添加商品到购物车吧!</p>
+					<button onclick="gouwuche2()" id="btn3">&times;</button>
+				</div>
+			</div>
+			<div id="zuoxia">
+				<div id="zuoxia1">
+					<p>店</p>
+					<p style="margin-left: 20px;position: absolute;top: 0px; ">店</p>
+				</div>
+				<div id="zuoxia2">
+					<p>限定</p>
+					<p style="margin-left: 35px;position: absolute;top: 0px; width: 34px;">限定</p>
+				</div>
+				<div id="zuoxia3">
+					<p>关于我们</p>
+					<p style="margin-left: 68px;position: absolute;top: 0px;width: 68px; ">关于我们</p>
+				</div>
+			</div>
+
+
+
+			<div id="beijing">
+				<ul id="div">
+					<li style="background: url(img/1.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/2.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/3.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/4.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/5.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+						<div style="">
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/1.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/2.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/3.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/4.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/5.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/1.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/2.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/3.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/4.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/5.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+						<div style="">
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/1.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/2.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/3.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/4.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/5.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+				</ul>
+				<ul id="div1">
+					<li style="background: url(img/6.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/7.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/8.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/9.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/10.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/6.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/7.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/8.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/9.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/10.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/6.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/7.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/8.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/9.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/10.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/6.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/7.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/8.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/9.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+					<li style="background: url(img/10.JPG);background-size: 100%;">
+						<div>
+							<p>H / C 2020春夏<br><span style="margin-left: -80px;">“ Under the Havoc”</span></p>
+						</div>
+					</li>
+
+				</ul>
+				<script src="js/jquery-3.5.1.min.js"></script>
+				<script>
+					function move() {
+						var _move = false; //移动标记  
+						var _x, _y; //鼠标离控件左上角的相对位置  
+						$("#beijing").click(function() {
+							//alert("click");//点击（松开后触发）  
+						}).mousedown(function(e) {
+							_move = true;
+
+							_y = e.pageY - parseInt($("#div").css("top"));
+							$("#div").fadeTo(20); //点击后开始拖动并透明显示  
+						});
+						$(document).mousemove(function(e) {
+							if (_move) {
+								var x = e.pageX - _x; //移动时根据鼠标位置计算控件左上角的绝对位置  
+								var y = e.pageY - _y;
+								$("#div").css({
+									top: y,
+									left: x
+								}); //控件新位置  
+							}
+						}).mouseup(function() {
+							_move = false;
+							$("#div").fadeTo("fast", 1); //松开鼠标后停止移动并恢复成不透明  "fast":规定褪色效果的速度。
+						});
+					}
+
+					move();
+				</script>
+				<script>
+					function move() {
+						var _move = false; //移动标记  
+						var _x, _y; //鼠标离控件左上角的相对位置  
+						$("#beijing").click(function() {
+							//alert("click");//点击（松开后触发）  
+						}).mousedown(function(e) {
+							_move = true;
+
+							_y = e.pageY - parseInt($("#div1").css("top"));
+							$("#div1").fadeTo(20); //点击后开始拖动并透明显示  
+						});
+						$(document).mousemove(function(e) {
+							if (_move) {
+								var x = e.pageX - _x; //移动时根据鼠标位置计算控件左上角的绝对位置  
+								var y = e.pageY - _y;
+								$("#div1").css({
+									top: y,
+									left: x
+								}); //控件新位置  
+							}
+						}).mouseup(function() {
+							_move = false;
+							$("#div1").fadeTo("fast", 1); //松开鼠标后停止移动并恢复成不透明  "fast":规定褪色效果的速度。
+						});
+					}
+
+					move();
+				</script>
+				<script>
+					function gouwuche() {
+
+						$('#gouwuche3').css('animation', ' gouwuche 1.5s ease both')
+					}
+				</script>
+
+				<script type="text/javascript">
+					function gouwuche2() {
+
+						$('#gouwuche3').css('animation', ' gouwuche2  1.5s ease both')
+					}
+				</script>
+				</script>
+		</body>
+</html>

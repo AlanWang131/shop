@@ -1,0 +1,220 @@
+<style>
+	
+		html{height: 940px;width: 1920px;overflow: hidden;}
+		*{
+			margin: 0;
+			padding: 0;
+		} 
+		
+		body{background-color: white;}
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+		
+		.container {
+		  width: 390px;
+		  height: 549px;
+		  background: #000;
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top:200px;
+		  -webkit-box-shadow: 0px 0px 114px 2px rgba(0, 0, 0, 0.75);
+		  -moz-box-shadow: 0px 0px 114px 2px rgba(0, 0, 0, 0.75);
+		  box-shadow: 0px 0px 114px 2px rgba(0, 0, 0, 0.75);
+		}
+		
+		
+		
+		
+		.text {
+		  position: absolute;
+		  margin-top: 254px;
+		  border: none;
+		  background: #000;
+		  margin-left: 101px;
+		  color: gray;
+		  width: 196px;
+		  height: 44px;
+		  padding-left: 3px;
+		  z-index: 8;
+		  font-family: "Roboto", sans-serif;
+		  padding-top: 21px;
+		  transition: all 600ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+		}
+		.text:focus {
+		 
+		  font-size: 16px;
+		}
+		
+		.pass {
+		  position: absolute;
+		  margin-top: 305px;
+		  border: none;
+		  background: #000;
+		  margin-left: 101px;
+		  color: gray;
+		  width: 196px;
+		  height: 44px;
+		  padding-left: 3px;
+		  z-index: 20;
+		  font-family: "Roboto", sans-serif;
+		  padding-top: 21px;
+		  transition: all 600ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+		}
+		.pass:focus {
+		  outline-width: 0;
+		  font-size: 16px;
+		}
+		
+		#button {
+		  position: absolute;
+		  z-index: 20;
+		  width: 149px;
+		  height: 43px;
+		  border: 1px solid #fff;
+		  background: #000;
+		  font-family: "Roboto", sans-serif;
+		  color: #fff;
+		  font-size: 16px;
+		  border-radius: 22px;
+		  margin-top: 421px;
+		  margin-left: 120.5px;
+		  transition: 0.5s;
+		  cursor: pointer;
+		}
+		#button:hover {
+		  color: #000;
+		  background: #fff;
+		  
+		}
+		#button:focus {
+		  outline-width: 0;
+		}
+		
+		.header {
+		  position: absolute;
+		  text-align: center;
+		  font-family: "Roboto", sans-serif;
+		  color: #fff;
+		  font-size: 48px;
+		  margin-left: 128px;
+		  margin-top: 81px;
+		}
+		
+		.info {
+		  position: absolute;
+		  text-align: center;
+		  font-family: "Roboto", sans-serif;
+		  color: #BDFFBD;
+		  font-size: 14px;
+		  margin-left: 125px;
+		  margin-top: 181px;
+		}
+			
+			
+			
+			
+			body{background:linear-gradient(to right, #8b92a9 0%,  #23242a 50%,  #000100 100%);height:940px;perspective:1200px;margin: 0px;overflow: hidden;}
+			.modal {display: none;
+			    /* 默认隐藏 */
+			    position: fixed; /* 固定定位 */
+			   margin-right: 0px;
+			    left: 0;
+			    top: 0;
+			    width: 100%; 
+			    height:940px;
+				background-color: rgba(0,0,0,0.8);
+				position: absolute;
+				z-index: 3;
+				overflow-y: auto;
+			}
+			 
+
+			.close1 {
+			   
+			    position: fixed;
+				top: 50px;left: 120px;z-index: 7;
+			
+			}
+			.close {
+			    color: #d3d3d3;
+			    position: fixed;
+				top: 200px;left:1100px;z-index: 7;
+			    font-size: 48px;
+			    font-weight: bold;
+			}
+			
+			.close:hover,
+			.close:focus {
+			    color: #ffffff;
+			
+			    cursor: pointer;
+				
+			}
+			
+			.zhong ul li{list-style: none;width: 100%;overflow-x: hidden;margin-left: -60px;}
+			
+			.p{font-size:180px;animation: p 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;width: 1400px;text-align: right;margin-left: -400px;text-shadow: 0 0 5px black;}
+			.P:hover button{-webkit-text-stroke:white 8px;border-radius:50px;color:rgba(0,0,0,0.5);background-color:rgba(57, 155, 200, 0);margin-top: -20px;text-shadow:none}
+			
+			.nav{animation: nav 4.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+			.nav{perspective:280px;border: red 0px solid;width:100%;height:940px;overflow-y: auto; position: absolute;left: 0px;top:-10px;position: absolute;z-index: 2;padding-left:600px;}
+			.nav button{color: white;
+				transition: all 0.3s cubic-bezier(0.435, 0.750, 0.975, 1.085);transition: all 0.5S 0S;transform-origin: right;overflow-y: hidden;margin-top: -90px;letter-spacing: 0px;line-height: 200px;width: 1610px;margin-right:40px;padding-right: 0px;border:none ;-webkit-transform:rotateY(-6deg);font-family: daohang;text-align: right;
+				background:none}
+			
+			.genduo{color: white;height:100px;width: 500px;border: 1px white solid ;font-size: 25px;font-weight: bold;}
+			.genduo li{list-style: none;float: left;margin-right: 4%;animation: genduo 5s ease both;}	
+			.genduo-1{height:100px;width: 500px;border: 1px white solid ;font-size: 25px;margin-top: 800px;overflow: hidden;}
+			.lunbo{height: 300px;width: 20px;position: absolute;right: 150px;bottom:280px; border: #006eff 1px solid;z-index: 6;-webkit-transform: skew(-15deg);}
+			.lunbo li{list-style: none;width: 30px;height: 30px;background:#FFF;border: #FFFFFF 1px solid;border-radius: 50%;margin-top: 50px;}
+			
+			
+				
+			#p:hover{text-shadow:none;-webkit-transform:rotateY(-4deg);position:relative;z-index: 1;webkit-line-clamp: 2;line-height: 250px;
+background-image: #000;-webkit-text-stroke:white 6px;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+			#p:focus{}
+			
+			#biaoti-1{width: 172px;height: 162px;position: absolute;top: 650px;left:50px;line-height: 0px;overflow: hidden;z-index: 3;border-radius: 10px;transition: all 1S 0S;}
+			
+			#biaoti{width: 170px;height: 160px;padding-left: 10px;padding-top: 14px;line-height: 0px;animation: biaoti 6S ease both;background-color: rgba(0,0,0,0.9);border-radius: 10px;transform: all ease-in 1s 2s;}
+			#biaoti-1:hover p{-webkit-text-stroke:#ffffff 2px;color: #000000 ;transform:scale(0.9);}
+			#biaoti-1:hover{transform:scale(1.2);opacity: 0.8;animation: biaoti2 2s 0.2s linear infinite;}
+			#biaoti-1:hover{background-color:rgba(57, 155, 200, 0.8);}
+			#biaoti p{color: white;font-family: daohang;font-size:30px;line-height:35px;margin-top: 10px;-webkit-text-stroke: white 3px solid;}
+			#wrap{border: #4801FF 1px solid;height: 940px;width: 100%; position: absolute;top: 0;}
+			
+			#denglu{background: none;color: #FFFFFF;font-size: 30px;margin-left: 10px;border: none;}
+			
+			@keyframes genduo{
+				0%{-webkit-transform: translateY(100px) ;}
+				70%{-webkit-transform: translateY(100px) ;}
+				100%{-webkit-transform: translateY(0px) ;}
+			}
+			
+			@keyframes nav{
+			  0% {transform:rotateY(145deg);
+			    -webkit-transform: rotateY(-80deg) translateY(1200px) ;
+			    opacity: 0.5;overflow-y: scroll;}
+				80% {transform:rotateY(145deg);
+				  -webkit-transform: rotateY(-80deg) translateY(1200px) ;
+				  opacity: 0.5;overflow-y: scroll;}
+			  100% {
+			    -webkit-transform: rotateY(0deg) translateY(00px) ;
+			    opacity: 1;}}
+			#ren{width: 940px ;width: 900px;}
+			
+			@keyframes biaoti{
+				0%{
+					-webkit-transform: translateY(170px) ;}
+					70%{
+						-webkit-transform: translateY(170px) ;}
+				100%{-webkit-transform: translateY(0px) ;}
+				
+
+			
+		

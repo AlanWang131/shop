@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Harsh and Cruel-高端街头服饰
+		</title>
+		<link rel="icon" href="img/logo1.png" type="image/png" sizes="16x16" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<style type="text/css">
+			@font-face {
+				font-family: daohang;
+				src: url(./font/121.ttf);
+			}
+
+			/* 加载动画 */
+			.loading {
+				width: 20px;
+				height: 100px;
+			}
+
+			#loading11 {
+				-webkit-animation: loading11 3s both;
+				height: 940px;
+				width: 100%;
+				background-color: #000000;
+				position: absolute;
+				z-index: 20;
+			}
+		</style>
+		<style>
+			@keyframes loading11{
+										
+			 0% {
+			 transform: translateX(0); 
+			 }
+											   
+			 99.9% {
+			transform: translateX(0); 
+			 }
+											
+			 100% {
+			 transform: translateX(2200px); 
+			 }
+		</style>
+		<style>
+			@keyframes ren{
+		  0% {
+		    -webkit-transform:translateY(1200px) ;
+		    opacity: 0.5;}
+			80% {
+			  -webkit-transform:translateY(1200px) ;
+			 }
+		  100% {
+		    -webkit-transform:translateY(00px) ;
+		   }}
+		    </style>
+
+		<header></header>
+
+	</head>
+	<body>
+
+
+		<!-- <div style="position: absolute; left: 0px;top: 0px;"><video width=100% height=100%  autoplay muted controls="controls"loop="loop">
+    <source src="vidio/production%20ID_4842593.mp4" alt="Second slide" style="width: 1920px"> -->
+		</video></div>
+		<div id="loading11">
+
+			<img src="img/IMG_1082.GIF" style="margin-left: 500px;margin-top: 300px;">
+
+		</div>
+		<div id="wrap">
+			<div style="margin-left: 220px;animation:ren 3.5s ease both;position: absolute;margin-top: 0px;" id="ren"><img src="img/98.png"
+				 style="transition: all 0.5s ease ;" id="img"></div>
+			<div id="caidan">
+				<button></button>
+			</div>
+			<button id="denglu" style="position: absolute;z-index:6;">
+				<p>登录</p>
+			</button>
+			<div id="biaoti-1">
+				<div id="biaoti">
+					<p>WAN<br /> GZEQI<br /> ANG.</p>
+					<div></div>
+				</div>
+			</div>
+			<div class="genduo-1" style="display: none;">
+				<div class="genduo">
+					<ul>
+						<li>个人介绍</li>
+						<li>图片收藏</li>
+						<li>我的歌单</li>
+						<li>网络日志</li>
+						<li>网站收藏</li>
+						<li>网站收藏</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="nav">
+				<nav class="P">
+					<button id="p" class="p" style="margin-top: 0px;margin-top: 50px;" onclick="shop()"><a href="shop.html" target="_blank"
+						 style="height: 800px;width:1200px;border: #0A9DB2 1px solid;position: absolute;z-index: 999;top: 150px;left: 400px;opacity: 0;">aa</a><b>SHOP<br>STUDIO</b></button>
+					<button id="p" class="p" style="margin-top: 0px"><b>VISUAL <br>IDENTITY</b></button>
+					<button id="p" class="p" style="margin-top: 0px"><b>DRAWN</b></button>
+					<button id="p" class="p" style="margin-top: 0px"><b>FAVERUTE</b></button>
+					<button id="p" class="p" style="margin-top: 0px"><b>VISUAL <br>IDENTITY</b></button>
+					<button id="p" class="p" style="margin-top: 0px"><b>DRAWN</b></button>
+				</nav>
+			</div>
+			<div id="myModal" class="modal" ;>
+
+
+				<div class="close1">
+					<span class="close">&times;</span></div>
+				<div class="al">
+				</div>
+				<div class="container">
+					<div class="header">登录</div>
+					<div class='info'>单击输入框</div>
+					<input id='username' class='text' onfocus="handle2()" class='inc2' type="text" name="Username" placeholder='用户名'
+					 value="">
+
+					<input id='password' class='pass' onfocus="handle1()" class='inc1' type="password" name="Password" placeholder='密码'
+					 value="">
+					<button id="button">登录</button>
+
+
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="Zuiyou">
+			<div class="zuiyou">
+			</div>
+		</div>
+
+		<script>
+			var modal = document.getElementById('myModal');
+
+			// 打开弹窗的按钮对象
+			var btn = document.getElementById("denglu");
+
+
+			// 获取 <span> 元素，用于关闭弹窗
+			var span = document.querySelector('.close');
+
+			// 点击按钮打开弹窗
+			btn.onclick = function() {
+				modal.style.display = "block";
+			}
+
+			// 点击 <span> (x), 关闭弹窗
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+		</script>
+
+
+	</body>
+</html>
